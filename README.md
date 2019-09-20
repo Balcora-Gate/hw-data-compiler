@@ -2,7 +2,7 @@
 
 Real simple tool for compiling extracted mod data. Point the script to the root of the mod, specify entity types to compile, watch it go.
 
-<div style="display: flex; flex-direction: column; align-items: center;"><img src="https://i.imgur.com/uMvwk6r.png" alt="BALCORA" /></div>
+<p align="center"><img src="https://i.imgur.com/uMvwk6r.png" alt="BALCORA" /></p>
 
 ---
 
