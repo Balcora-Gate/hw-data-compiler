@@ -1,6 +1,6 @@
 # hw-data-compiler
 
-Real simple tool for compiling extracted mod data. Point the script to the root of the mod, specify entity types to compile, watch it go.
+Real simple tool for compiling extracted mod data into JSON format. Point the script to the root of the mod, specify entity types to compile, watch it go.
 
 <p align="center"><img src="https://i.imgur.com/uMvwk6r.png" alt="BALCORA" /></p>
 
