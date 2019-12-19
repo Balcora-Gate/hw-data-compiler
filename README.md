@@ -19,6 +19,24 @@ Real simple tool for compiling extracted mod data into JSON format. Point the sc
     2. Indicate which data categories you're interested in (comma seperated), valid arguments are `ship`, `weapon`, `subsystem`
 5. Data will be parsed and compiled, and written to the flagged destinations.
 
+Example of writing mod contents to file:
+```shell
+fear$ npm run compile -- -w
+
+> hw-data-compiler@1.0.0 compile /path/to/script/dir
+> node ./main.js "-w"
+
+Enter the root of the mod directory: /path/to/mod/root
+Attempting to compile data from /path/to/mod/root
+Which subdirectories? (Default is 'ship, subsystem, weapon'): <ENTER>
+(lots of output...)
+[ 'ship', 'subs', 'wepn' ]
+Attempting to write...
+File write success (at ./dump.json)!
+fear$
+```
+Everything will be dumped into a file in the same directory as the script called `dump.json`.
+
 ### .env
 
 The `-db` flag expects certain variables to be present in a file called `.env`. Create this file via `touch` or however you like, make sure it's in the same directory as the mains script. Inside `.env`, you need to supply four variables:
