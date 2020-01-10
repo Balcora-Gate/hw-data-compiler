@@ -13,7 +13,7 @@ Real simple tool for compiling extracted mod data into JSON format. Point the sc
 2. Navigate into the cloned repo (probably with `cd hw-data-compiler`) and run `npm install`
 3. `npm run compile` is the command to run the script, **it can take two flags:**
     1. `-w`: 'Write to file', writes the compiled data into a file called `dump.json`
-    2. `-db`: 'Write to database', writes the compiled data into an Atlas database according to variables in your `.env` file (see below).
+    2. `-db`: 'Write to database', writes the compiled data into an [Atlas](https://www.mongodb.com/cloud/atlas) database according to variables in your `.env` file (see below).
 4. Follow the prompts:
     1. Enter the root of the mod you want to compile (the directory containing the `keeper.txt` file)
     2. Indicate which data categories you're interested in (comma seperated), valid arguments are `ship`, `weapon`, `subsystem`
