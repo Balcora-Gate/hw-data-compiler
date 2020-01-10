@@ -7,7 +7,15 @@ Real simple tool for compiling extracted mod data into JSON format. Point the sc
 ---
 
 ## Usage
-
+Execution syntax:
+```shell
+npm run compile -- [-w] [-db]
+```
+Quick example writing to file:
+```shell
+npm run compile -- -w
+```
+Details:
 1. Clone this repo somewhere (`git clone https://github.com/HW-PlayersPatch/hw-data-compiler.git`)
     1. If you want to use this within your own project, `npm install hw-data-compiler`
 2. Navigate into the cloned repo (probably with `cd hw-data-compiler`) and run `npm install`
@@ -19,7 +27,7 @@ Real simple tool for compiling extracted mod data into JSON format. Point the sc
     2. Indicate which data categories you're interested in (comma seperated), valid arguments are `ship`, `weapon`, `subsystem`
 5. Data will be parsed and compiled, and written to the flagged destinations.
 
-Example of writing mod contents to file:
+Demonstration of writing mod contents to file:
 ```shell
 fear$ npm run compile -- -w
 
